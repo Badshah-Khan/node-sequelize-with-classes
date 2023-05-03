@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "target": "ES6",
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": true,
+        "outDir": "dist",
+        "allowJs": true,
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "node_modules/*"
+            ]
+        }
+    },
+    "ts-node": {
+        "esm": true
+    },
+    "include": [
+        "app/**/*",
+        "config/**/*",
+        "*.ts",
+        "app.ts",
+    ]
+}
